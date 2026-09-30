@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aysha Banu | Python Developer</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f7fa;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #111827;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h2 {
+            color: #38bdf8;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .hero h1 {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        .hero span {
+            color: #0284c7;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #555;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #0284c7;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        section {
+            padding: 70px 8%;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 32px;
+        }
+
+        .about {
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skill {
+            background: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .projects {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .project {
+            background: white;
+            width: 300px;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .project h3 {
+            margin-bottom: 10px;
+            color: #0284c7;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact p {
+            margin: 10px;
+        }
+
+        footer {
+            background-color: #111827;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 700px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 8px;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <h2>Aysha Banu</h2>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- Home -->
+    <section class="hero" id="home">
+        <div>
+            <h1>Hi, I'm <span>Aysha Banu</span></h1>
+
+            <p>
+                Aspiring Python Developer | ECE Student | IT Enthusiast
+            </p>
+
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </section>
+
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Me</h2>
+
+        <div class="about">
+            <p>
+                I am a final-year B.E. Electronics and Communication Engineering
+                student at Vivekanandha College of Technology for Women.
+                I am interested in the IT industry and passionate about Python
+                programming and software development.
+            </p>
+
+            <br>
+
+            <p>
+                I am currently improving my skills in Python, SQL, GitHub,
+                problem solving and AI technologies. My goal is to start my
+                career as an IT professional and continuously grow my technical skills.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skills">
+            <div class="skill">Python</div>
+            <div class="skill">SQL</div>
+            <div class="skill">HTML</div>
+            <div class="skill">Git & GitHub</div>
+            <div class="skill">Problem Solving</div>
+            <div class="skill">AI Tools</div>
+        </div>
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="projects">
+
+            <div class="project">
+                <h3>IoT-Based Equipment Condition Monitoring System</h3>
+
+                <p>
+                    An IoT project designed to monitor equipment condition
+                    using sensors and provide real-time monitoring through
+                    Blynk.
+                </p>
+            </div>
+
+
+            <div class="project">
+                <h3>VLSI CMOS Inverter</h3>
+
+                <p>
+                    CMOS inverter layout design and simulation using
+                    Magic and NGSpice with DRC verification.
+                </p>
+            </div>
+
+
+            <div class="project">
+                <h3>Python Problem Solving</h3>
+
+                <p>
+                    Practicing Python programming and LeetCode problems
+                    to improve logical thinking and coding skills.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <div class="contact">
+
+            <p><strong>Email:</strong> ayshabanusarfudheen48@gmail.com</p>
+
+            <p>
+                <strong>LinkedIn:</strong>
+                <a href="#" target="_blank">My LinkedIn</a>
+            </p>
+
+            <p>
+                <strong>GitHub:</strong>
+                <a href="#" target="_blank">My GitHub</a>
+            </p>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Aysha Banu. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
